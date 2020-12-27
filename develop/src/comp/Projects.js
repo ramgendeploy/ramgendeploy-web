@@ -13,18 +13,32 @@ const Projects = () => {
   const projects = [
     {
       title: '✍ My Blog',
-      desc: 'A blog about machine learning and Software in general.',
+      desc:
+        'A write about Machine Learning, Guides and Tutorials, Paper Reading Reviews and more!',
       img: 'https://ramagg.com/content/images/2020/02/R.png',
       link: 'https://ramagg.com/',
       tags: [tar[0]],
     },
     {
-      title: '🎨 DeepArtGallery',
+      title: '🐵 Head-Swap Pipeline',
       desc:
-        'A gallery about Beautiful Style Transfer images made with TensorFlow and colab.',
-      img:
-        'https://ramagg.com/deepartgallery/imgs/SpaceX_Falcon_X-Fire-orignal.jpg',
-      link: 'https://ramagg.com/deepartgallery',
+        'Swaps the face of a source person to a target using facial landmarks, and Segmentation.',
+      img: './static/images/hswap.png',
+      link: 'https://ramagg.com',
+      tags: [tar[0]],
+    },
+    {
+      title: '📱 aiStickerMaker Android App',
+      desc: 'Make Chat stickers using Segmentation on your face.',
+      img: './static/images/aism.png',
+      link: 'http://aistickermaker.com',
+      tags: [tar[0]],
+    },
+    {
+      title: '😜 Joke Generator LSTM',
+      desc: 'LSTM generator trainend on 1M jokes from of r/jokes.',
+      img: './static/images/JokeGenerator.jpg',
+      link: 'https://ramagg.com/jokegenerator',
       tags: [tar[0], tar[1]],
     },
     {
@@ -36,10 +50,12 @@ const Projects = () => {
       tags: [tar[0], tar[1]],
     },
     {
-      title: '😜 Joke Generator!',
-      desc: 'LSTM generator trainend on 1M jokes from of r/jokes.',
-      img: './static/images/JokeGenerator.jpg',
-      link: 'https://ramagg.com/jokegenerator',
+      title: '🎨 DeepArtGallery',
+      desc:
+        'A gallery about Beautiful Style Transfer images made with TensorFlow and colab.',
+      img:
+        'https://ramagg.com/deepartgallery/imgs/SpaceX_Falcon_X-Fire-orignal.jpg',
+      link: 'https://ramagg.com/deepartgallery',
       tags: [tar[0], tar[1]],
     },
     {

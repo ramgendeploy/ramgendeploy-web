@@ -1,8 +1,8 @@
 import * as React from 'react'
 import './css/extra.css'
 import './css/main.css'
-import Projects from './comp/Projects.js'
-import Nav from './comp/Nav.js'
+import Projects from '../comp/Projects.js'
+import Nav from '../comp/Nav.js'
 import { Helmet } from 'react-helmet'
 
 // markup
