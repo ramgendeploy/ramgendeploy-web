@@ -24,7 +24,7 @@ const Projects = () => {
       desc:
         'Swaps the face of a source person to a target using facial landmarks, and Segmentation.',
       img: './static/images/hswap.png',
-      link: 'https://ramagg.com',
+      link: 'https://ramagg.com/headswap-pipeline/',
       tags: [tar[0]],
     },
     {
